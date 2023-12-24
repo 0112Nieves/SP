@@ -1,0 +1,34 @@
+Script started on 2023-12-01 17:25:19+08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw6[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw6[00m$ ./a.out
+[?2004l^C 17:25:27 up  1:55,  1 user,  load average: 0.06, 0.11, 0.09
+nieves   tty2         2023-11-30 13:04 (tty2)
+
+^C 17:25:29 up  1:55,  1 user,  load average: 0.06, 0.11, 0.09
+nieves   tty2         2023-11-30 13:04 (tty2)
+
+ 17:25:36 up  1:55,  1 user,  load average: 0.05, 0.11, 0.09
+nieves   tty2         2023-11-30 13:04 (tty2)
+
+^C 17:25:39 up  1:55,  1 user,  load average: 0.05, 0.10, 0.09
+nieves   tty2         2023-11-30 13:04 (tty2)
+
+^C 17:25:41 up  1:55,  1 user,  load average: 0.05, 0.10, 0.09
+nieves   tty2         2023-11-30 13:04 (tty2)
+
+ 17:25:46 up  1:55,  1 user,  load average: 0.05, 0.10, 0.09
+nieves   tty2         2023-11-30 13:04 (tty2)
+^Z
+[1]+  停止                  ./a.out
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw6[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw6[00m$ ps
+[?2004l    PID TTY          TIME CMD
+   4907 pts/1    00:00:00 bash
+   4914 pts/1    00:00:00 a.out
+   4927 pts/1    00:00:00 ps
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw6[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw6[00m$ exit [K
+[?2004lexit
+有停止的工作。
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw6[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw6[00m$ exit file
+[?2004lexit
+bash: exit: file：需要數字參數
+
+Script done on 2023-12-01 17:26:06+08:00 [COMMAND_EXIT_CODE="2"]

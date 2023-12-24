@@ -1,0 +1,64 @@
+Script started on 2023-11-11 00:03:06+08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="96" LINES="31"]
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ gcc -fPIC -c sayhello.c
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ls -l
+[?2004l總用量 16
+-rw-rw-r-- 1 nieves nieves  371 11月 10 13:05 change.c
+-rw-rw-r-- 1 nieves nieves    0 11月 11 00:03 file_dynamic
+-rwxrwx--- 1 nieves nieves  220 11月 10 13:42 [0m[01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves  153 12月 18  2006 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves 1720 11月 11 00:03 sayhello.o
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ls -lgcc -fPIC -c sayhello.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.c[1P.cc.ch.ca.cn.cg.ce.c
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ gcc -fPIC -c change.cls -l[K
+[?2004l總用量 20
+-rw-rw-r-- 1 nieves nieves  371 11月 10 13:05 change.c
+-rw-rw-r-- 1 nieves nieves 1952 11月 11 00:03 change.o
+-rw-rw-r-- 1 nieves nieves    0 11月 11 00:03 file_dynamic
+-rwxrwx--- 1 nieves nieves  220 11月 10 13:42 [0m[01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves  153 12月 18  2006 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves 1720 11月 11 00:03 sayhello.o
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ gcc -shared sayhello.o -o[K[Kchange.o -o l ibmylib.so
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ls -l
+[?2004l總用量 36
+-rw-rw-r-- 1 nieves nieves   371 11月 10 13:05 change.c
+-rw-rw-r-- 1 nieves nieves  1952 11月 11 00:03 change.o
+-rw-rw-r-- 1 nieves nieves     0 11月 11 00:03 file_dynamic
+-rwxrwxr-x 1 nieves nieves 15696 11月 11 00:04 [0m[01;32mlibmylib.so[0m
+-rwxrwx--- 1 nieves nieves   220 11月 10 13:42 [01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves   153 12月 18  2006 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves  1720 11月 11 00:03 sayhello.o
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ g[Kgcc -o dynamicprogram -[Kmain.c libmyli b.so
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ls -l
+[?2004l總用量 52
+-rw-rw-r-- 1 nieves nieves   371 11月 10 13:05 change.c
+-rw-rw-r-- 1 nieves nieves  1952 11月 11 00:03 change.o
+-rwxrwxr-x 1 nieves nieves 16128 11月 11 00:04 [0m[01;32mdynamicprogram[0m
+-rw-rw-r-- 1 nieves nieves     0 11月 11 00:03 file_dynamic
+-rwxrwxr-x 1 nieves nieves 15696 11月 11 00:04 [01;32mlibmylib.so[0m
+-rwxrwx--- 1 nieves nieves   220 11月 10 13:42 [01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves   153 12月 18  2006 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves  1720 11月 11 00:03 sayhello.o
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ls -lgcc -o dynamicprogram main.c libmylib.so[A]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K./dynamicprogarm[K[K[Kram
+[?2004l[1;41mdynamic-linking library routine: HelloWorld!
+[0mchange color(1:red, 2:blue, 3:yellow, 4:green):
+1
+[1;31msuccess[0m
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ./dynamicprogram
+[?2004l[1;41mdynamic-linking library routine: HelloWorld!
+[0mchange color(1:red, 2:blue, 3:yellow, 4:green):
+2^[[A     2
+[1;34msuccess
+[0m[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ./dynamicprogram
+[?2004l[1;41mdynamic-linking library routine: HelloWorld!
+[0mchange color(1:red, 2:blue, 3:yellow, 4:green):
+3
+[1;33msuccess
+[0m[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ ./dynamicprogram
+[?2004l[1;41mdynamic-linking library routine: HelloWorld!
+[0mchange color(1:red, 2:blue, 3:yellow, 4:green):
+4
+[1;32msuccess
+[0m[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/dynlnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/dynlnk-demo[00m$ exit
+[?2004lexit
+
+Script done on 2023-11-11 00:05:27+08:00 [COMMAND_EXIT_CODE="0"]

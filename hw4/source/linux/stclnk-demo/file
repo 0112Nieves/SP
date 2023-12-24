@@ -1,0 +1,79 @@
+Script started on 2023-11-10 13:01:53+08:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="96" LINES="31"]
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ exit./staticprogramgcc -static -o staticprogram main.c -L. libfoo.a [A]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car rcs libfoo.a sayhello.ols -l[Kar rcs libfoo.a change.ols -l[Kgcc -c change.c[10Pls -lgcc -c change.c
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ gcc -c change.cexit[K./staticprogramgcc -static -o staticprogram main.c -L. libfoo.a [A]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l總用量 16
+-rw-rw-r-- 1 nieves nieves  371 11月 10 13:00 change.c
+-rw-rw-r-- 1 nieves nieves 1952 11月 10 13:02 change.o
+-rw-rw-r-- 1 nieves nieves    0 11月 10 13:01 file
+-rwxrwx--- 1 nieves nieves  223 11月 10 13:00 [0m[01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves  152 11月 10 13:00 [01;32msayhello.c[0m
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -lgcc -c change.cexit[Kgcc -c change.c[K[K[K[K[K[K[K[Ksayhello.c
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ gcc -c sayhello.cls -l[K
+[?2004l總用量 20
+-rw-rw-r-- 1 nieves nieves  371 11月 10 13:00 change.c
+-rw-rw-r-- 1 nieves nieves 1952 11月 10 13:02 change.o
+-rw-rw-r-- 1 nieves nieves    0 11月 10 13:01 file
+-rwxrwx--- 1 nieves nieves  223 11月 10 13:00 [0m[01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves  152 11月 10 13:00 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves 1720 11月 10 13:02 sayhello.o
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -lgcc -c sayhello.cls -l[Kgcc -c change.cexit[K./staticprogramgcc -static -o staticprogram main.c -L. libfoo.a [A]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car rcs libfoo.a sayhello.ols -l[Kar rcs libfoo.a sayhello.o
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ar rcs libfoo.a sayhello.ols -l[K
+[?2004l總用量 24
+-rw-rw-r-- 1 nieves nieves  371 11月 10 13:00 change.c
+-rw-rw-r-- 1 nieves nieves 1952 11月 10 13:02 change.o
+-rw-rw-r-- 1 nieves nieves    0 11月 10 13:01 file
+-rw-rw-r-- 1 nieves nieves 1866 11月 10 13:02 libfoo.a
+-rwxrwx--- 1 nieves nieves  223 11月 10 13:00 [0m[01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves  152 11月 10 13:00 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves 1720 11月 10 13:02 sayhello.o
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -lar rcs libfoo.a sayhello.o[K[K[K[K[K[K[K[K[K[Kchange.o
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ar rcs libfoo.a change.ols -l[K
+[?2004l總用量 28
+-rw-rw-r-- 1 nieves nieves  371 11月 10 13:00 change.c
+-rw-rw-r-- 1 nieves nieves 1952 11月 10 13:02 change.o
+-rw-rw-r-- 1 nieves nieves 4096 11月 10 13:02 file
+-rw-rw-r-- 1 nieves nieves 3894 11月 10 13:02 libfoo.a
+-rwxrwx--- 1 nieves nieves  223 11月 10 13:00 [0m[01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves  152 11月 10 13:00 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves 1720 11月 10 13:02 sayhello.o
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -lar rcs libfoo.a change.ols -l[Kar rcs libfoo.a sayhello.ols -l[Kgcc -c sayhello.cls -l[Kgcc -c change.cexit[K./staticprogramgcc -static -o staticprogram main.c -L. libfoo.a 
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ gcc -static -o staticprogram main.c -L. libfoo.a [A]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l總用量 1040
+-rw-rw-r-- 1 nieves nieves     371 11月 10 13:00 change.c
+-rw-rw-r-- 1 nieves nieves    1952 11月 10 13:02 change.o
+-rw-rw-r-- 1 nieves nieves    4096 11月 10 13:02 file
+-rw-rw-r-- 1 nieves nieves    3894 11月 10 13:02 libfoo.a
+-rwxrwx--- 1 nieves nieves     223 11月 10 13:00 [0m[01;32mmain.c[0m
+-rwxrwx--- 1 nieves nieves     152 11月 10 13:00 [01;32msayhello.c[0m
+-rw-rw-r-- 1 nieves nieves    1720 11月 10 13:02 sayhello.o
+-rwxrwxr-x 1 nieves nieves 1034936 11月 10 13:03 [01;32mstaticprogram[0m
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -lgcc -static -o staticprogram main.c -L. libfoo.a [A]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car rcs libfoo.a change.ols -l[Kar rcs libfoo.a sayhello.ols -l[Kgcc -c sayhello.cls -l[Kgcc -c change.cexit[K./staticprogram
+[?2004lchange color(1:red, 2:blue, 3:yellow, 4:green):
+1
+[1;32mstatic-linking library routine: HelloWorld!
+[0m[1;31msuccess[0m
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ./staticprogram
+[?2004lchange color(1:red, 2:blue, 3:yellow, 4:green):
+2
+[1;32mstatic-linking library routine: HelloWorld!
+[0m[1;34msuccess
+[0m[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ./staticprogram
+[?2004lchange color(1:red, 2:blue, 3:yellow, 4:green):
+3
+[1;32mstatic-linking library routine: HelloWorld!
+[0m[1;33msuccess
+[0m[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ./staticprogram
+[?2004lchange color(1:red, 2:blue, 3:yellow, 4:green):
+4
+[1;32mstatic-linking library routine: HelloWorld!
+[0m[1;32msuccess
+[0m[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ./staticprogram[10Pls -lgcc -static -o staticprogram main.c -L. libfoo.a [A]0;nieves@nieves-VirtualBox: ~/SP/hw4/source/linux/stclnk-demo[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw4/source/linux/stclnk-demo[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./staticprogram[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2023-11-10 13:03:49+08:00 [COMMAND_EXIT_CODE="0"]

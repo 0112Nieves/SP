@@ -1,0 +1,30 @@
+      LDX    A
+MOVA  STX    A
+      LDX    B
+MOVB  STX    B
+      LDA    A
+      LDX    COUNT
+      MUL    B  //A = A * B   
+      STCH   REST,X   //存到陣列
+      STX    COUNT
+      LDA    COUNT
+      ADD    ONE   //陣列往後一格
+      STA    COUNT
+      LDX    B
+      TIX    TEN
+      JLT    MOVB   //乘數迴圈
+      LDA    B
+      SUB    NINE
+      STA    B
+      LDX    A
+      TIX    TEN
+      JLT    MOVA   //被乘數迴圈
+
+
+REST  RESW    81
+A     WORD    1
+B     WORD    1
+TEN   WORD    10
+COUNT WORD    0
+ONE   WORD    1
+NINE  WORD    9

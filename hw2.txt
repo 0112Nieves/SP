@@ -1,0 +1,25 @@
+       LDT    #10
+       LDX    COUNT
+       LDA    I
+OTTER  STA    I
+       LDA    J
+INNER  MUL    I  // i*j
+       STCH   REST,X  // 存到陣列
+       LDA    J
+       ADD    #1  // j+1
+       TIXR   X
+       COMPR  A,T  // j是否小於10
+       JLT    INNER
+       SUB    #9  // j-9
+       STA    J
+       LDA    I
+       ADD    #1 // i+1
+       TIXR   X
+       COMPR  A,T // i是否小於10
+       JLT    OUTER
+
+
+I      WORD   1
+J      WORD   1
+COUNT  WORD   0
+REST   RESW   81

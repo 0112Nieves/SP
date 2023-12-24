@@ -1,0 +1,12 @@
+Script started on 2023-12-12 18:11:14+08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="31"]
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw7[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw7[00m$ more the_result
+[?2004lmore: 無法開啟 the_result: 沒有此一檔案或目錄
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw7[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw7[00m$ ./hw07[K[K7
+[?2004l[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw7[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw7[00m$ more the_result
+[?2004l     93    1112   10002
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw7[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw7[00m$ [s [K[K[Kps aux|grep nieves|wc
+[?2004l     92    1102    9942
+[?2004h]0;nieves@nieves-VirtualBox: ~/SP/hw7[01;32mnieves@nieves-VirtualBox[00m:[01;34m~/SP/hw7[00m$ exit
+[?2004lexit
+
+Script done on 2023-12-12 18:12:13+08:00 [COMMAND_EXIT_CODE="0"]
