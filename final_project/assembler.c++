@@ -133,10 +133,9 @@ int main()
 { 
     init();
     string file;
-    // cout << "Please input the file name:";
-    // cin >> file;
-    // ifstream input(file);
-    ifstream input("Fig2_5.txt");
+    cout << "Please input the file name:";
+    cin >> file;
+    ifstream input(file);
     if(!input.is_open() || !output.is_open() || !obcode.is_open()){
         cout << "Error" << endl;
         return 1;
